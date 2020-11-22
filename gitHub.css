@@ -1,0 +1,1087 @@
+*{
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+}
+
+body {
+    margin: 0;
+    font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
+}
+
+
+
+li.logo::marker {
+    content: none;
+  }
+
+  .header {
+    background-image: url("https://github.githubassets.com/images/modules/site/heroes/simple-codelines.svg");
+    background-repeat: no-repeat;
+    background-color: #2f363d;
+  }
+  
+  .menuTab div {
+      background-color: rgba(255, 255, 255, 0);
+      color: white;
+      padding: 8px 0px;
+      height: 56px;
+      padding-left: 16px;
+      padding-right: 16px;
+
+  }
+  
+  .menuTab path {
+      fill: white;
+      display: block;
+      text-align: center;
+      padding: 0px 0px;
+  }
+  
+  
+  .menuTab div a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    padding: 0px;
+    display:inline-block;
+  }
+  .menuTab ul {
+    display: none;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+  .menuTab ul li {
+      font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
+      display: inline-block;
+      padding: 8px 10px;
+      text-decoration: none;
+      font-weight: 450;
+      text-align: left;
+  }
+  
+  .menuTab ul li hr {
+    padding: 0;
+    margin: 0;
+  }
+  
+  .menuTab ul li b{
+      font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
+      display: inline-block;
+      padding: 0px;
+      text-decoration: none;
+      font-weight: 600;
+      color:  black;
+      font-size: 14px;
+  }
+  
+  .menuTab ul li h1{
+      font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
+      display: inline-block;
+      padding: 0px;
+      text-decoration: none;
+      font-weight: 400;
+      color:  #586063;
+      font-size: 14px;
+      font-family: SFMono-Regular,Consolas,Liberation Mono;
+  }
+  
+  .menuTab ul li hr {
+      margin: 8px 0px;
+  }
+  
+  .menuTab ul li:hover {color: #d1d5da;}
+  .menuTab ul li a:hover {color: #d1d5da;}
+  .menuTab ul li:hover ul {display: block;}
+  .menuTab ul li ul {
+    background: white; 
+    position: absolute;
+    display: none;
+    padding: 16px 16px;
+    border-radius: 10px;
+  }
+  .menuTab  li ul li { 
+    background: white; 
+    display: block; 
+    color:#586063;
+    font-size: 14px;
+    margin: 0px;
+    padding:5px;
+    text-align: left;
+  }
+  .menuTab ul li ul li a {display:block !important;} 
+  .menuTab ul li ul li:hover {color:  #1074E7;}
+  .menuTab ul li ul li b:hover {color:  #1074E7;}
+
+#search {
+    border: 0px;
+    background-color:  #24292e;
+    border-radius: 10px;
+    width: 100%;
+    height: 5px;
+    padding: 15px;
+    margin-bottom: 0px;
+    font-size: 15px;
+    font-family: inherit;
+    color: white;
+    font-weight: 600;
+}
+#signUp {
+    border: 1px solid #dfe1e5;
+    padding: 5px;
+    border-radius: 8px;
+    margin-top: 4px;
+    margin-right: 20px;
+    margin-right: 20px;
+}
+
+#signUpBt {
+    display: inline;
+}
+
+#three-bars {
+    display: inline;
+}
+
+
+.sec1 {
+    background-color:  rgba(255, 255, 255, 0);
+    
+    
+}
+
+.info{
+    text-align: center;
+    padding: 0px 16px;
+    margin:0;
+    float: left;
+    background-color:  #2f363d;
+    padding-bottom: 100px;
+    font-family: Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+}
+
+
+.info h1 {
+    font-weight: 550;
+    margin: 0px;
+    padding:0;
+    font-size:  800%;
+    color: white;
+}
+
+.info p{
+    font-size: 20px;
+    color: #FFFFFF99;
+}
+
+.signinBlock {
+    display: none;
+    float: left;
+    background-color: white;
+    height: 520px;
+    margin-top: 5px;
+    padding: 24px;
+    margin: 48px;
+    margin-top: 0;
+    padding-top: 14px;
+    border-radius: 5px;
+}
+
+.signinBlock h1 {
+    font-weight: 500;
+    color: #24292E;
+    padding:0;
+    margin: 0px 0px 10px;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.signinBlock input {
+    border: 1px solid #dfe1e5;
+    background-color:  white;
+    border-radius: 5px;
+    width: 100%;
+    height: 46px;
+    margin-bottom: 10px;
+    padding: 10px 30px 10px 10px;
+    font-size: 15px;
+}
+
+.signinBlock p{
+    margin: 5px 0px 0px;
+    color: #24292E;
+    font-size: 12px;
+    width: 100%;
+}
+
+.signinBlock button {
+    background-color: #2EBC4F;
+    font-size: 16px;
+    margin: 16px 0px;
+    padding: 20px 32px;
+    border: 0px;
+    border-radius: 10px;
+    width: 100%;
+    color: white;
+    font-weight: 600;
+}
+
+#lastp {
+    margin-top: 15px;
+    color: #6A734D;
+}
+
+
+
+.clearfix {
+    clear: both;
+}
+
+
+
+
+#cat {
+    display: none;
+    position: absolute;
+    right: 5%;
+    margin-top: -40px;
+}
+
+.row1 {
+    float: left;
+    padding-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.row1 h1{
+    font-size: 80px;
+    width: 80%;
+    font-weight: 600;
+    margin: 0;
+    color: #24292E;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.row1 p{
+    
+    color: #586069;
+    font-size: 48px;
+    width: 85%;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.row2 {
+    float: left;
+    margin-top: 100px;
+    text-align: center;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.row2 h3 {
+    font-size: 40px;
+    width: 100%;
+    margin-bottom: 0px;
+    font-weight: 550;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.row2 img{
+    width: 150px;
+}
+
+.row2 p{
+    color: #586069;
+    font-size: 16px;
+    margin-top: 3px;
+    padding: 0;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+
+.row2 button {
+    padding: 32px 48px;
+    background-color: #1074E7;
+    color: white;
+    font-size: 38px;
+    width: 380px;
+    border: 0px;
+    border-radius: 10px;
+    margin-top: 10px;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
+}
+
+.row3 {
+    float: left;
+    margin-top: 100px;
+    text-align: center;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.row3 h3 {
+    font-size: 40px;
+    width: 100%;
+    margin-bottom: 0px;
+    font-weight: 550;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.row3 img{
+    width: 150px;
+}
+
+.row3 p{
+    color: #586069;
+    font-size: 38px;
+    width: 70%;
+    margin-top: 3px;
+    padding: 0;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+
+.row3 button {
+    padding: 32px 48px;
+    background-color: white;
+    color:#1074E7;
+    font-size: 38px;
+    width: 380px;
+    border: 1px solid #1074E7;
+    border-radius: 10px ;
+    margin-top: 10px;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
+}
+
+h5 {
+    font-size: 45px;
+    width: 80%;
+    color: #6A737D;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 450;
+    
+}
+
+.sec3 {
+    margin-top: 200px;
+}
+
+.sec3 h1{
+    width: 70%;
+}
+
+.sec3 img {
+    height: 50px;
+    padding: 0px 32px;
+    margin: 16px 10px;
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: grayscale(100%);
+    filter: gray();
+}
+
+.sec3 p {
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+h6 {
+    font-size: 16px;
+    color: #586069;
+    text-align: center;
+    font-weight: 450;
+    font-family: SFMono-Regular,Consolas,Liberation Mono;
+    margin: 0;
+}
+
+.sec4 {
+    text-align: center;
+    margin: 0px;
+    font-family: Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+    padding: 0px 16px 40px;
+    margin-top: 200px;
+}
+
+.sec4 h1 {
+    font-size: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+}
+
+.sec4 p {
+    font-size: 32px;
+    text-align: center;
+    color:  #586069;
+    width: 95%;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sec4 button {
+    font-weight: 500;
+    padding: 48px 48px;
+    background-color: white;
+    color:#1074E7;
+    font-size: 38px;
+    width: 550px;
+    border: 1px solid #1074E7;
+    border-radius: 10px ;
+    margin-top: 10px;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
+}
+
+.sec5 {
+    padding: 60px 60px 0px 16px;
+}
+
+#robot {
+    width: 70%;
+    padding-left: 32px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+
+.sec5 div {
+    padding: 48px;
+    padding-top: 0px;
+}
+
+.rightcol {
+    padding: 0px 0px;
+    margin: 0;
+}
+
+.rightcol div {
+    padding: 0px;
+}
+
+.sec5 div h1 {
+    font-family: Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+    font-size: 20px;
+    color: #24292E;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 400;
+    margin-top: 80px;
+}
+
+.sec5 div p {
+    font-size: 14px;
+    color: #24292E;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sec5 div a {
+    color: #0366D6;
+}
+
+.sec6 h5 {
+    font-size: 40px;
+    width:100%;
+}
+
+.sec6 {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.sec6 div {
+    padding: 45px 45px 25px;
+    height: 1000px;
+    float: left;
+    margin: 16px;
+    border: 1px solid  #dfe1e5;
+    border-radius: 10px;
+}
+
+.sec6 div img {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+}
+
+.sec6 div h1 {
+    font-size: 45px;
+    margin: 16px 0px 4px;
+    font-weight: 550;
+    color: #28292E;
+    padding-top: 50px;
+}
+
+.sec6 div p {
+    font-size: 36px;
+    margin: 0px 0px 8px;
+    color: #586069;
+    padding-top: 20px;
+}
+
+.sec6 div h2 {
+    font-size: 45px;
+    margin: 16px 0px;
+    color: #1074E7;
+    font-weight: 450;
+    justify-content: space-between;
+    border-top: 1px solid var(--color-border-primary)!important;
+    padding-top: 50px;
+}
+
+.sec7 {
+    padding-top: 80px;
+    text-align: center;
+}
+
+.sec7 h6 {
+    margin: 0;
+}
+
+.sec7 h1 {
+    padding: 16px 0px 8px;
+    color: #24292E;
+    font-size: 120px;
+    text-align: center;
+    margin: 0px;
+    margin-top: 50px;
+    font-weight: 600;
+    padding-bottom: 50px;
+}
+
+
+.sec7 p {
+    padding: 0px 32px;
+    color: #586069;
+    font-size: 36px;
+    align-self: center;
+    text-align: center;
+    margin: 0px 0px 24px;
+    font-weight: 400;
+    font-family: Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 80px;
+}
+
+.sec7 button {
+    padding: 40px 40px;
+    width: 80%;
+    background-color:white;
+    color:  #1074E7;
+    font-size: 45px;
+    border: 1px solid #1074E7;
+    border-radius: 10px;
+    margin-top: 10px;
+    font-weight: 590;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
+}
+
+
+
+.sec8 {
+    margin-top: 100px;
+}
+
+.sec8 div {
+    width: 72%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.sec8 div div {
+    display: flex;
+    height: 288px;
+    width: 288px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    margin: 24px 16px 16px;
+    float: left;
+    text-align: center;
+}
+
+
+.sec8 img {
+    height: 160px;
+}
+
+#codeclimate {
+    display: none;
+}
+
+.sec9 {
+    padding-top: 150px;
+    text-align: center;
+    padding-bottom: 150px;
+    padding-right: 16px;
+}
+
+.sec9 p {
+    color: #586069;
+    font-size: 14px;
+    margin: 8px 163px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#blueText {
+    margin-top: 50px;
+    color:  #0366D6;
+    font-size: 16px;
+}
+
+.sec10 {
+    padding: 32px 16px;
+    margin: 0px 32px;
+}
+
+#gitHubTail {
+    margin: 0px;
+    width: 100%;
+    padding:0px
+}
+
+#gitHubTail h1 {
+    font-size: 70px;
+    margin-bottom: 70px;
+}
+
+.infoTail {
+    height:800px;
+}
+
+.sec10 div {
+    margin: 0px 0px 8px;
+    padding: 0px 0px 0px 24px;
+    width: 50%;
+    float: left;
+}
+
+.sec10 div h2 {
+    font-family: SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace!important;
+    font-size: 35px;
+    margin: 0px 0px 6px;
+    color: #6A737D;
+    padding-top: 0px;
+    font-weight: 500;
+}
+
+.sec10 div ul {
+    list-style: none;
+    font-size: 35px;
+    color: #586069;
+    padding: 0;
+}
+
+.sec10 div li {
+    padding-bottom: 16px;
+}
+
+.tail {
+    float: left;
+    margin-top: 32px;
+    width: 100%;
+    padding-bottom: 16px;
+    background-color: #fafbfc;
+}
+
+
+
+.tail ul {
+    list-style: none;
+    padding : 24px 16px;
+    margin: 0;
+    padding-bottom: 8px;
+}
+
+
+
+
+
+.tail ul li {
+    font-size: 12px;
+    float: left;
+    margin-top: 7px;
+    display: block;
+    color:#586063;
+    text-align: center;
+    text-decoration: none;
+    margin: 0px 16px 0px 0px;
+}
+
+.tail path {
+   fill:  #586063;
+}
+
+.menuTail {
+    display: none;
+}
+
+.appLogo {
+    display: inline;
+    float: left;
+}
+
+.appLogo svg {
+    height: 50px;
+}
+
+.appLogo li {
+    padding: 16px;
+}
+
+
+
+@media screen and (min-width: 1200px) {
+
+    .header {
+        width: 100%;
+        background-repeat: no-repeat;
+    }
+
+    .menuTab {
+        padding: 0px;
+    }
+
+    .menuTab ul {
+        display: inline;
+    }
+
+    #three-bars {
+        display: none;
+    }
+
+    .info {
+        padding-top: 64px;
+        padding-left: 128px;
+        padding-right: 48px;
+        width: 50%;
+    }
+    .info h1 {
+        font-size: 64px;
+        text-align: left;
+    }
+    .info p {
+        font-size: 20px;
+        text-align: left;
+    }
+
+    .signinBlock {
+        display: block;
+        width: 35%;
+    }
+
+    #cat {
+        display: inline;
+    }
+    
+    .row1 {
+        float: left;
+        padding: 150px 88px 80px
+    }
+    
+    .row1 h1{
+        font-size: 32px;
+        width: 300px;
+        font-weight: 600;
+    }
+    
+    .row1 p{
+        width: 322px;
+        color: #586069;
+        font-size: 20px;
+    }
+    
+    .row2 {
+        margin: 180px 60px 80px;
+        width: 303px;
+    }
+
+    .row2 img {
+        height: 50px;
+    }
+    
+    .row2 h3 {
+        font-size: 16px;
+        margin-bottom: 0px;
+        font-weight: 550;
+    }
+    
+    .row2 p{
+        font-size: 14px;
+        margin-top: 3px;
+        padding: 0;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    
+    .row2 button {
+        padding: 16px 24px;
+        width: 148px;
+        font-size: 14px;
+        height: 54px;
+    }
+    
+    .row3 {
+        margin: 180px 0px 0px;
+        width: 303px;
+    }
+
+    .row3 img {
+        height: 50px;
+    }
+    
+    .row3 h3 {
+        font-size: 16px;
+        margin-bottom: 0px;
+    }
+    
+    .row3 p{
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+    
+    .row3 button {
+        padding: 16px 24px;
+        width: 151px;
+        height: 54px;
+        font-size: 14px;
+    }
+    
+    h5 {
+        font-size: 20px;
+    }
+    
+    .sec3 {
+        height: 280px;
+        margin-top: 0px;
+    }
+    
+    .sec3 img {
+        height: 25;
+    }
+    
+    .sec3 p {
+        width: 85%;
+    }
+    
+    
+    .sec4 {
+        text-align: center;
+        height: 298px;
+        margin: 0px 125px; 
+    }
+    
+    .sec4 h1 {
+        font-size: 48px;
+        margin: 16px 0px 0px;
+        margin-bottom: 20px;
+    }
+    
+    .sec4 p {
+        font-size: 20px;
+        text-align: center;
+        width: 70%;
+      
+    }
+    
+    .sec4 button {
+        padding: 20px 25px;
+        width: 217px;
+        height: 66px;
+        font-size: 16px;
+        font-weight: 590;
+    }
+    
+    #robot {
+        width: 50%;
+        float:left;
+        padding-left: 32px;
+    }
+    
+    .rightcol {
+        float: left;
+        width: 50%;
+        padding: 0px 0px 48px;
+    }
+    
+    .rightcol div {
+        padding: 0px 48px 48px 0px;
+    }
+    
+    .sec5 div h1 {
+        width: 70%;
+        margin-top: 20px;
+        padding-left: 20px;
+    }
+    
+    .sec5 div p {
+        width: 70%;
+        padding-left: 20px;
+    }
+    
+
+    .sec6 h5 {
+        font-size: 20px;
+    }
+    
+    .sec6 div {
+        padding: 16px 16px 9px;
+        width: 275px;
+        height: 349px;
+    }
+    
+    .sec6 div img {
+        height: 200px;
+        width: 243px;
+    }
+    
+    .sec6 div h1 {
+        font-size: 16px;
+        padding-top: 0;
+    }
+    
+    .sec6 div p {
+        font-size: 12px;
+        padding-top: 0;
+    }
+    
+    .sec6 div h2 {
+        font-size: 14px;
+        padding-top: 20px;
+    }
+    
+    
+    .sec7 h1 {
+        font-size: 48px;
+        margin: 0px;
+        padding-bottom: 20px;
+    }
+    
+    
+    .sec7 p {
+        padding: 0px 16px;
+        font-size: 20px;
+        width: 653px;
+        margin-bottom: 20px;
+    }
+    
+    .sec7 button {
+        padding: 20px 25px;
+        width: 20%;
+        height: 66px;
+        font-size: 16px;
+    }
+
+    #codeclimate {
+        display: inline;
+    }
+    
+    #codeclimate img {
+        margin-top: 20px;
+    }
+    
+    .sec8 div div {
+        display: flex;
+        height: 96px;
+        width: 96px;
+    }
+    
+    .sec8 .up {
+        margin: -24px 16px 16px;
+    }
+    
+    .sec8 img {
+        height: 52.79px;
+    }
+
+    
+    
+    .sec9 {
+        padding-top: 80px;
+        padding-bottom: 100px;
+    }
+    
+    #blueText {
+        margin-top: 20px;
+    }
+    
+    #gitHubTail {
+        width: 33.33%;
+        margin: 0px 0px 32px;
+        float: left;
+        margin-left: -20px;
+    }
+
+    #gitHubTail h1 {
+        font-size: 30px;
+    }
+    
+    .sec10 div {
+        width: 16.66667%;
+    }
+    
+    .sec10 div h2 {
+        font-size: 14px;
+        padding-top: 32px;
+    }
+    
+    .sec10 div ul {
+        font-size: 14px;
+    }
+
+    .menuTail {
+        display: inline;
+        float: left;
+    }
+
+    .appLogo {
+        float: right;
+    }
+
+    .appLogo li {
+        padding: 0;
+    }
+
+    
+    .appLogo svg {
+        height: 20px;
+    }
+    
+
+}
